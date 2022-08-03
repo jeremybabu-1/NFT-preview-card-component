@@ -1,0 +1,109 @@
+.mdiv {
+  background-color: #0F3460;
+  position: absolute;
+  height: 550px;
+  width: 30%;
+  border-radius: 20px;
+  top: 10%;
+  left: 35%;
+  margin: 0 auto 20% auto;
+  box-shadow: 20px 20px #1A1A2E;
+}
+
+body {
+  background-color: #16213E;
+  ;
+  width: 1440px;
+}
+
+.eq {
+  width: 90%;
+  margin: 5%;
+  height: 50%;
+}
+
+.view {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  display: none;
+}
+
+.t1 {
+  margin: 0 0 0 5%;
+  color: white;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.t2 {
+  margin: 0 0 0 5%;
+  color: #537EC5;
+  padding-top: 2px;
+}
+
+.av {
+  position: absolute;
+  width: 40px;
+  bottom: 6%;
+  left: 5%;
+}
+
+hr {
+  position: absolute;
+  bottom: 15%;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.t3 {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: #29C7AC;
+}
+
+.et {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+}
+
+.t4 {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+}
+
+.clock {
+  position: absolute;
+  bottom: 20%;
+  right: 30%;
+}
+
+.t5 {
+  position: absolute;
+  color: white;
+  bottom: 5%;
+  left: 20%;
+}
+
+.t6 {
+  color: #537EC5;
+}
+
+.t1:hover {
+  color: #29C7AC;
+}
+
+.t5:hover {
+  color: #29C7AC;
+}
+
+.eq:hover {
+  opacity: 0;
+}
+
+.eq:hover.view {
+  display: contents;
+}
